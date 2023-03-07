@@ -1,0 +1,11 @@
+function PrintHelp()
+print("alsaswitcher.lua version: "..version)
+print("  alsaswitcher.lua             - run in 'terminal menu' mode")
+print("  alsaswitcher.lua mini        - run in 'mini terminal menu' mode")
+print("  alsaswitcher.lua list        - print list of available devices")
+print("  alsaswitcher.lua use [dev]   - switch to specified device")
+print("  alsaswitcher.lua zenity      - run in gui menu mode using zenity")
+print("  alsaswitcher.lua qarma       - run in gui menu mode using zenity")
+print("  alsaswitcher.lua yad         - run in gui menu mode using yad")
+print("  alsaswitcher.lua gui         - run in any gui menu mode that we can")
+end
